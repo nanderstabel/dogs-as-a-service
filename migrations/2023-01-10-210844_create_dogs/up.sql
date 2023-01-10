@@ -1,0 +1,7 @@
+CREATE TABLE dogs (
+  id VARCHAR PRIMARY KEY,
+  url VARCHAR NOT NULL,
+  width INTEGER NOT NULL,
+  height INTEGER NOT NULL,
+  date timestamp NOT NULL DEFAULT NOW()
+)
